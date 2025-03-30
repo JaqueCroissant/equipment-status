@@ -1,4 +1,5 @@
 using EquipmentStatus.Service;
+using EquipmentStatus.Service.Extensions;
 
 namespace EquipmentStatus.Api;
 

@@ -2,7 +2,7 @@
 using EquipmentStatus.Service.Database;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace EquipmentStatus.Service;
+namespace EquipmentStatus.Service.Extensions;
 
 public static class ServiceCollectionExtensions
 {

@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquipmentStatus.Service", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquipmentStatus.Api", "EquipmentStatus.Api\EquipmentStatus.Api.csproj", "{6C2CC938-B302-457D-AF46-EA9D814BE30F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquipmentStatus.Service.Tests", "EquipmentStatus.Service.Tests\EquipmentStatus.Service.Tests.csproj", "{B4B16EE4-31EC-4B2E-8C19-37DB5A738D8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{6C2CC938-B302-457D-AF46-EA9D814BE30F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C2CC938-B302-457D-AF46-EA9D814BE30F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C2CC938-B302-457D-AF46-EA9D814BE30F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4B16EE4-31EC-4B2E-8C19-37DB5A738D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4B16EE4-31EC-4B2E-8C19-37DB5A738D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4B16EE4-31EC-4B2E-8C19-37DB5A738D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B16EE4-31EC-4B2E-8C19-37DB5A738D8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
