@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquipmentStatus.Service", "EquipmentStatus.Service\EquipmentStatus.Service.csproj", "{FABE0756-90BB-4FF7-A7B9-5A1F8E70C2DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquipmentStatus.Api", "EquipmentStatus.Api\EquipmentStatus.Api.csproj", "{6C2CC938-B302-457D-AF46-EA9D814BE30F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FABE0756-90BB-4FF7-A7B9-5A1F8E70C2DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FABE0756-90BB-4FF7-A7B9-5A1F8E70C2DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FABE0756-90BB-4FF7-A7B9-5A1F8E70C2DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FABE0756-90BB-4FF7-A7B9-5A1F8E70C2DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C2CC938-B302-457D-AF46-EA9D814BE30F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C2CC938-B302-457D-AF46-EA9D814BE30F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C2CC938-B302-457D-AF46-EA9D814BE30F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C2CC938-B302-457D-AF46-EA9D814BE30F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
