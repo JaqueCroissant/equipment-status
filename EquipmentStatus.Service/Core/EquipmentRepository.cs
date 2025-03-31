@@ -58,6 +58,11 @@ public class EquipmentRepository : IEquipmentRepository
         
     public async Task<IReadOnlyCollection<EquipmentState>> GetHistoryById(string equipmentIdentifier, DateTimeOffset from, DateTimeOffset to)
     {
+        if (string.IsNullOrEmpty(equipmentIdentifier))
+        {
+            return Array.Empty<EquipmentState>();
+        }
+        
         var equipmentStates = await _dbContext.EquipmentStates
             .Where(x => 
                 x.EquipmentIdentifier.Equals(equipmentIdentifier, 
